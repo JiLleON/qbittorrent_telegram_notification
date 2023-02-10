@@ -19,4 +19,4 @@ curl -g -S -X POST \
 "https://api.telegram.org/bot${BOT_TOKEN}/sendMessage"# | tee -a notificationsLog.txt # if you need log files 
 
 # Prints a info message in the console
-echo "${TORRENT_NAME} Download completed. Telegram notification sent."
+echo "$TORRENT_NAME Download completed. Telegram notification sent."
